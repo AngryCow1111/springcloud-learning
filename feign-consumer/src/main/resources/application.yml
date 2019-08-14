@@ -1,0 +1,12 @@
+server:
+  port: 3000
+spring:
+  application:
+    name: feign-consumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1100/eureka/
+  server:
+    enable-self-preservation: false
+

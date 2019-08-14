@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: rabbitmq-hello
+  rabbitmq:
+    host: 47.96.119.52
+    port: 5672
+    username: springcloud
+    password: springcloud
+server:
+  port: 1990
